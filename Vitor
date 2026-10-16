@@ -1,0 +1,22 @@
+# try Exept
+"""
+try:
+testa um codigo
+exept:
+se der erro ele mostra uma mensagem personalizada
+"""
+"""
+n1 = int(input("Digite o n1 "))
+n2 = int(input("Digite o n2 "))
+r = n1 * n2
+print(r)
+"""
+try:
+  n1 = int(input("Digite o n1 "))
+  n2 = int(input("Digite o n2 "))
+  r = n1 / n2
+  print(r)
+except ZeroDivisionError:
+  print("Parece que temos um aborto aqui!")
+except ValueError:
+  print("Inimigo da inteligencia!")
